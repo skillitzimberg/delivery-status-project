@@ -1,7 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+}
+
+html,
+body {
+  min-width: 100%;
+  min-height: 100vh;
 }
 
 body {
@@ -50,11 +56,16 @@ main {
   flex-direction: column;
   align-items: center;
   width: 327px;
-  height: 567px;
+  height: 600px;
   margin: 35px auto;
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0px 40px 40px -20px #3c7b61;
+}
+
+.card:first-child,
+.card:last-child {
+  display: none;
 }
 
 .active button {
@@ -62,21 +73,23 @@ main {
 }
 
 .card-content {
+  width: 90%;
+  height: 90%;
+  margin-top: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
-  height: 90%;
 }
 
-.card-content > h2 {
+.card-content>h2 {
+  height: 40px;
   margin-top: 30px;
   font-weight: 600;
   font-size: 22px;
   text-align: center;
 }
 
-.card-content > p {
+.card-content>p {
   margin-top: 10px;
   font-family: Ubuntu;
   font-weight: 100;
@@ -94,7 +107,7 @@ main {
   background-color: #e0e0e0e0;
 }
 
-.dot:nth-child(2) {
+.focused-tab {
   background-color: #67bd99;
 }
 
@@ -138,7 +151,7 @@ main {
 .order {
   width: 100%;
   height: 150px;
-  margin-top: 35px;
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
