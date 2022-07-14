@@ -99,6 +99,11 @@ main {
   color: #828282;
 }
 
+.close {
+  align-self: flex-end;
+  margin: 10px 10px 0 0;
+}
+
 .dot {
   display: inline-block;
   width: 7px;
@@ -155,11 +160,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-#close {
-  align-self: flex-end;
-  margin: 10px 10px 0 0;
 }
 
 #card-image {
