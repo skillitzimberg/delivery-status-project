@@ -99,6 +99,11 @@ main {
   color: #828282;
 }
 
+.card-image {
+  display: block;
+  width: 109px;
+}
+
 .close {
   align-self: flex-end;
   margin: 10px 10px 0 0;
@@ -112,7 +117,7 @@ main {
   background-color: #e0e0e0e0;
 }
 
-.focused-tab {
+.tab-indicator {
   background-color: #67bd99;
 }
 
@@ -160,9 +165,4 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-#card-image {
-  display: block;
-  width: 109px;
 }
