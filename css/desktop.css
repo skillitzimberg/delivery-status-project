@@ -4,7 +4,7 @@
   }
 
   .card {
-    margin: 35px -5px;
+    margin: 35px -3px;
   }
 
   .card:first-child,
@@ -14,6 +14,7 @@
   }
 
   .active {
-    height: 625px;
+    height: 630px;
+    width: 370px;
   }
 }
