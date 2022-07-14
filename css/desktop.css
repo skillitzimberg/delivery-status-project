@@ -1,11 +1,19 @@
 @media only screen and (min-width: 768px) {
   main {
     flex-direction: row;
-    justify-content: space-around;
+  }
+
+  .card {
+    margin: 35px -5px;
   }
 
   .card:first-child,
   .card:last-child {
     display: flex;
+    z-index: -1;
+  }
+
+  .active {
+    height: 625px;
   }
 }
