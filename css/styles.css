@@ -136,9 +136,6 @@ main {
   justify-content: space-around;
   align-items: center;
   flex-grow: 2;
-}
-
-.item-details {
   font-size: 14px;
 }
 
